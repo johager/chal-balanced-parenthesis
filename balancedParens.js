@@ -63,7 +63,6 @@ testHasBalancedParens(`((There's a bonus open paren here.)`,false)
 testHasBalancedParens(`)`,false)
 testHasBalancedParens(`(`,false)
 testHasBalancedParens(`)(`,false)
-testHasBalancedParens(`)(`,true)
 testHasBalancedParens(`(This has (too many closes.) ) )`,false)
 testHasBalancedParens(`Hey...there are no parens here!`,true)
 
